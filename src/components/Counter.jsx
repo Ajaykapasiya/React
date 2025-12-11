@@ -5,6 +5,8 @@ const Counter = () => {
 
   const[counter,setCounter] = useState(0)
 
+  
+
   const inc1 = () =>{
     //counter++;
     setCounter(counter+1)
