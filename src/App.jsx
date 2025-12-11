@@ -6,6 +6,7 @@ import Person3 from "./components/Person3";
 import Laptop from "./components/Laptop";
 import Events from "./components/Events";
 import Counter from "./components/Counter";
+import Map from "./components/Map";
 
 const App = () => {
 
@@ -37,10 +38,14 @@ const App = () => {
       <div>
         {/* <Events/> */}
       </div>
+      <div>
+      {/* <Counter/> */}
+      </div>
 
-    <div>
-      <Counter/>
-    </div>
+
+      <div>
+        <Map/>
+      </div>
     </>
   );
 }
