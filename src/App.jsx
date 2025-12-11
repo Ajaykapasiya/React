@@ -5,6 +5,7 @@ import Person2 from "./components/Person2";
 import Person3 from "./components/Person3";
 import Laptop from "./components/Laptop";
 import Events from "./components/Events";
+import Counter from "./components/Counter";
 
 const App = () => {
 
@@ -33,10 +34,13 @@ const App = () => {
             <Laptop brand = "Dell" model = "qwer"  price= {50000}/>
             <Laptop brand = "Hp" model = "dfvw"  price= {70000}/> */}
       </div>
-
       <div>
-        <Events/>
+        {/* <Events/> */}
       </div>
+
+    <div>
+      <Counter/>
+    </div>
     </>
   );
 }
