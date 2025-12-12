@@ -6,6 +6,8 @@ const Ue = () => {
 
      useEffect(() => {
 document.title = counters
+console.log("UseEffect is running ");
+
     }, [counters])
   return (
     <div>
