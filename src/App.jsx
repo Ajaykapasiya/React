@@ -8,6 +8,7 @@ import Events from "./components/Events";
 import Counter from "./components/Counter";
 import Map from "./components/Map";
 import Filter from "./components/Filter";
+import Ue from './components/Ue';
 
 const App = () => {
 
@@ -50,7 +51,7 @@ const App = () => {
       </div>
 
       <div>
-        Hello
+        <Ue/>
       </div>
     </>
   );
