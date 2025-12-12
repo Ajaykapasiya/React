@@ -7,6 +7,7 @@ import Laptop from "./components/Laptop";
 import Events from "./components/Events";
 import Counter from "./components/Counter";
 import Map from "./components/Map";
+import Filter from "./components/Filter";
 
 const App = () => {
 
@@ -41,10 +42,11 @@ const App = () => {
       <div>
       {/* <Counter/> */}
       </div>
-
-
       <div>
-        <Map/>
+        {/* <Map/> */}
+      </div>
+      <div>
+        <Filter/>
       </div>
     </>
   );
