@@ -46,7 +46,11 @@ const App = () => {
         {/* <Map/> */}
       </div>
       <div>
-        <Filter/>
+        {/* <Filter/> */}
+      </div>
+
+      <div>
+        Hello
       </div>
     </>
   );
